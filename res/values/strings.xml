@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 Google Inc.
+
+Licensed under the Apache License, Version 2.0 (the "License"); you may not
+use this file except in compliance with the License. You may obtain a copy of
+the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+License for the specific language governing permissions and limitations under
+the License.
+-->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<string name="app_name">ODK Clinic</string>
+<string name="barcode_error">Barcode Scanner not installed.</string>
+<string name="cancel_download">Cancel Download</string>
+<string name="change_password">Change Password</string>
+<string name="change_server">Change URL</string>
+<string name="change_username">Change Username</string>
+<string name="connecting_server">Connecting...</string>
+<string name="default_info">v0.0.1 - http://opendatakit.org</string>
+<string name="default_password">test</string>
+<string name="default_server">http://rwinkwavu.cs.washington.edu:8080/openmrs</string>
+<string name="default_username">admin</string>
+<string name="downloading">Downloading %s...</string>
+<string name="download_patients">Download Patients</string>
+<string name="download_selected">Download Selected</string>
+<string name="error">Error: %s</string>
+<string name="finding_patient">Finding patients...</string>
+<string name="find_patient">List Patients</string>
+<string name="go_back">Go Back</string>
+<string name="info">ODK Clinic</string>
+<string name="no_cohort">No cohorts. Try refreshing.</string>
+<string name="no_items">No patients. Change Settings and Download Patients using the Menu button.</string>
+<string name="odk">Open Data Kit</string>
+<string name="openmrs">OpenMRS</string>
+<string name="password">Password</string>
+<string name="update_list">Update List</string>
+<string name="search_hint">Enter name or identifier</string>
+<string name="select_cohort">Select Cohort</string>
+<string name="server">URL</string>
+<string name="server_preferences">Change Settings</string>
+<string name="show_patient">Show Patient</string>
+<string name="storage_error">SD card not ready.</string>
+<string name="username">Username</string>
+<string name="download">Download</string>
+<string name="refresh">Refresh</string>
+<string name="cancel">Cancel</string>
+<string name="view_patient">View Patient</string>
+<string name="view_patient_detail">View Observation</string>
+
+
+<string name="forms">Forms</string>
+<string name="data">Data</string>
+<string name="delete_form">Delete Selected Form(s)</string>
+<string name="no_items_display">Nothing available to display.</string>
+<string name="noselect_error">Sorry, you have not selected any items!</string>
+<string name="delete_confirm">Are you sure you want to delete %s item(s)?</string>
+<string name="yes">Yes</string>
+<string name="no">No</string>
+<string name="form_deleted_ok">%s item(s) successfully deleted!</string>
+<string name="form_deleted_error">Sorry, %s item(s) failed to delete!</string>
+<string name="manage_forms">Manage Forms</string>
+<string name="local_forms">Local</string>
+<string name="remote_forms">Remote</string>
+<string name="load_remote_form_error">Sorry, unable to load remote form list!</string>
+<string name="download_all_successful">%s item(s) fetched successfully.</string>
+<string name="download_some_failed">Sorry, %s item(s) not fetched!</string>
+<string name="downloading_data">Fetching Data...</string>
+<string name="please_wait">Please wait a few moments.</string>
+<string name="add_form">Add Selected Form(s)</string>
+<string name="enter_data">Enter New Data</string>
+<string name="get_forms">Get New Forms</string>
+<string name="toggle_selected">Toggle All</string>
+<string name="form_renamed">%s was renamed %s.</string>
+<string name="download_failed_with_error">Form \"%s\" failed. %s.</string>
+<string name="error_downloading">Error Getting Form</string>
+<string name="list_failed_with_error">Form listing failed. %s.</string>
+<string name="ok">OK</string>
+<string name="fetching_file">"Getting \"%s\"\n\nForm %s of %s form(s)..."</string>
+<string name="download_complete">Form Get Complete</string>
+<string name="delete_yes">Delete Items</string>
+<string name="delete_no">Do Not Delete</string>
+<string name="file_deleted_ok">%s item(s) successfully deleted!</string>
+<string name="file_deleted_error">Sorry, %s item(s) failed to delete!</string>
+<string name="load_error">Sorry, unable to load form %s</string>
+<string name="invalid_answer_error">Sorry, this response is invalid!</string>
+<string name="required_answer_error">Sorry, this response is required!</string>
+<string name="data_saved_error">Sorry, data save failed!</string>
+<string name="data_saved_ok">Data successfully saved!</string>
+<string name="jump_to_previous">Go Up</string>
+<string name="jump_to_end">Go To End</string>
+<string name="jump_to_beginning">Go To Start</string>
+<string name="audio_file_error">No audio file was specified.</string>
+<string name="audio_file_invalid">File: %s is not a valid audio file.</string>
+<string name="audio_file_missing">Audio File: %s is missing.</string>
+<string name="file_missing">File: %s is missing.</string>
+<string name="image_file_invalid">File: %s is not a valid image file.</string>
+<string name="image_file_missing">Image File: %s is missing.</string>
+<string name="loading_form">Loading Form...</string>
+<string name="cancel_loading_form">Stop Loading</string>
+<string name="save_all_answers">Save Data</string>
+<string name="clear_answer">Remove Response</string>
+<string name="clear_answer_ask">Remove This Response?</string>
+<string name="clear_answer_no">Do Not Remove</string>
+<string name="clearanswer_confirm">Remove the response to \"%s\"?</string>
+<string name="discard_answer">Remove Response</string>
+<string name="change_language">Change Language</string>
+<string name="do_not_change">Do Not Change</string>
+<string name="cancel_saving_form">Stop Saving</string>
+<string name="saving_form">Saving Form...</string>
+<string name="quit_entry">Save Data And Exit</string>
+<string name="do_not_save">Discard Changes And Exit</string>
+<string name="do_not_exit">Do Not Exit</string>
+<string name="quit_application">Exit Without Saving?</string>
+<string name="delete_repeat">Remove Group</string>
+<string name="view_hierarchy">Go To Prompt</string>
+<string name="capture_audio">Record Sound</string>
+<string name="capture_image">Take Picture</string>
+<string name="capture_video">Record Video</string>
+<string name="replace_audio">Replace Sound</string>
+<string name="replace_barcode">Replace Barcode</string>
+<string name="replace_image">Replace Picture</string>
+<string name="replace_location">Replace Location</string>
+<string name="replace_video">Replace Video</string>
+<string name="play_audio">Play Sound</string>
+<string name="one_capture">Multimedia recorded.</string>
+<string name="no_capture">Nothing recorded yet.</string>
+<string name="get_barcode">Get Barcode</string>
+<string name="barcode_scanner_error">Sorry, Barcode Scanner is not installed!</string>
+<string name="get_location">Record Location</string>
+<string name="latitude">Latitude</string>
+<string name="location_accuracy">Accuracy is %s meters.</string>
+<string name="longitude">Longitude</string>
+<string name="altitude">Altitude</string>
+<string name="accept_location">Record Location</string>
+<string name="accuracy">Accuracy</string>
+<string name="getting_location">Loading Location...</string>
+<string name="cancel_location">Do Not Record</string>
+<string name="gps_disabled_error">Sorry, GPS is disabled!</string>
+<string name="trigger">OK. Ready to Continue.</string>
+<string name="play_video">Play Video</string>
+<string name="mark_finished">Mark Data as Finished</string>
+<string name="save_enter_data_description">You have reached the end of %s.</string>
+<string name="leave_repeat_yes">Do Not Add</string>
+<string name="leaving_repeat">Add Group</string>
+<string name="leaving_repeat_ask">And One More Group?</string>
+<string name="add_another">Add Group</string>
+<string name="add_another_repeat">Add another \"%s\" group?</string>
+<string name="entering_repeat">Add Group</string>
+<string name="entering_repeat_ask">Add New Group?</string>
+<string name="add_repeat">Add a new \"%s\" group?</string>
+<string name="add_repeat_no">Do Not Add</string>
+<string name="delete_repeat_ask">Remove This Group?</string>
+<string name="delete_repeat_confirm">Remove group \"%s\" and all of its sub-groups?</string>
+<string name="discard_group">Remove Group</string>
+<string name="delete_repeat_no">Do Not Remove</string>
+<string name="send_data">Send Selected Form(s)</string>
+
+</resources>
